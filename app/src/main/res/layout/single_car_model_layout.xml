@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_margin="2dp"
+    android:layout_height="wrap_content">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="#717171"
+    android:padding="1dp"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/body"
+        android:clickable="true"
+        android:background="@drawable/bg_button_white"
+        >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="3"
+    android:padding="2dp"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:id="@+id/logo"
+        android:layout_margin="5dp"
+        android:layout_weight="2"
+        android:scaleType="centerInside"
+        android:src="@drawable/logo"
+        android:layout_height="35dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:text="toyota"
+
+        android:textColor="@color/black"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:padding="8dp"
+        android:layout_margin="5dp"
+        android:id="@+id/name"
+        />
+
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:padding="2dp"
+android:weightSum="2"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:background="#fff"
+            android:padding="8dp"
+            android:layout_margin="5dp"
+android:visibility="gone"
+            android:layout_weight="1"
+            android:id="@+id/oil_reco"
+            android:textColor="#255c00"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:text="recommended"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:visibility="gone"
+            android:background="#fff"
+            android:padding="8dp"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:id="@+id/oil_price"
+            android:textColor="#696969"
+            android:layout_height="wrap_content"
+            android:text="recommended"
+            />
+
+    </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
+</LinearLayout>

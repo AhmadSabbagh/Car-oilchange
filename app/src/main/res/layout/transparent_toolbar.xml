@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimaryDark"
+
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+    <ImageButton
+        android:id="@+id/go_toggle"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_alignParentStart="true"
+        android:layout_gravity="start|center_vertical"
+        android:layout_margin="5dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:scaleType="fitCenter"
+
+        android:src="@drawable/ic_humberger_toggle" />
+
+
+    <TextView
+        android:id="@+id/toolbar_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:orientation="horizontal"-->
+    <!--android:layout_marginRight="0dp"-->
+    <!--android:layout_marginLeft="0dp"-->
+
+    <!--android:gravity="center_horizontal"-->
+    <!--android:foregroundGravity="center"-->
+    <!--android:layout_height="wrap_content">-->
+
+    <!---->
+
+
+    <!--&lt;!&ndash;<LinearLayout&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:orientation="horizontal"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:weightSum="100"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:focusable="true"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:focusableInTouchMode="true"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:id="@+id/autotext"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_marginLeft="5dp"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_weight="1"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:background="@color/white"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_height="wrap_content">&ndash;&gt;-->
+    <!--&lt;!&ndash;<EditText&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_height="30dp"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_gravity="center_vertical"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:background="@android:color/transparent"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:nextFocusUp="@id/autotext"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:nextFocusLeft="@id/autotext"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:textColorHint="#d5ecff"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:padding="5dp"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:gravity="center"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:textSize="13sp"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:id="@+id/search_in"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_weight="25"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:hint="ابحث"&ndash;&gt;-->
+    <!--&lt;!&ndash;/>&ndash;&gt;-->
+    <!--&lt;!&ndash;<ImageButton&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_weight="75"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_gravity="center_vertical"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:id="@+id/go_search"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:background="@android:color/transparent"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_height="32dp"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:scaleType="fitCenter"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:src="@android:drawable/ic_menu_search"&ndash;&gt;-->
+    <!--&lt;!&ndash;/>&ndash;&gt;-->
+
+
+    <!--&lt;!&ndash;</LinearLayout>&ndash;&gt;-->
+
+    <!--</LinearLayout>-->
+
+
+</android.support.v7.widget.Toolbar>
+
+    <!--<?xml version="1.0" encoding="utf-8"?>-->
+    <!--<android.support.v7.widget.Toolbar-->
+    <!--android:id="@+id/toolbar"-->
+    <!--xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="?attr/actionBarSize"-->
+    <!--app:theme="@style/CustomActionBar"-->
+    <!--android:background="@color/colorMoveLight"-->
+    <!--&gt;-->
+    <!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:orientation="horizontal"-->
+    <!--android:weightSum="185"-->
+    <!--android:paddingRight="8dp"-->
+    <!--android:layout_height="wrap_content">-->
+    <!--<ImageButton-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_weight="85"-->
+    <!--android:layout_gravity="center_vertical"-->
+    <!--android:id="@+id/go_toggle"-->
+    <!--android:padding="2dp"-->
+    <!--android:background="@android:color/transparent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:scaleType="fitCenter"-->
+    <!--android:src="@drawable/nav_opener"-->
+    <!--/>-->
+    <!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:orientation="horizontal"-->
+    <!--android:weightSum="100"-->
+    <!--android:id="@+id/autotext"-->
+    <!--android:focusable="true"-->
+    <!--android:focusableInTouchMode="true"-->
+    <!--android:layout_weight="15"-->
+    <!--android:background="@drawable/bg_search_input"-->
+    <!--android:layout_height="wrap_content">-->
+    <!--<EditText-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="30dp"-->
+    <!--android:layout_gravity="center_vertical"-->
+    <!--android:background="@android:color/transparent"-->
+    <!--android:textColorHint="#d5ecff"-->
+    <!--android:padding="5dp"-->
+    <!--android:textSize="13sp"-->
+
+    <!--android:id="@+id/search_in"-->
+    <!--android:layout_weight="25"-->
+    <!--android:hint="@string/search"-->
+    <!--/>-->
+    <!--<ImageButton-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_weight="75"-->
+    <!--android:layout_gravity="center_vertical"-->
+    <!--android:id="@+id/go_search"-->
+    <!--android:background="@android:color/transparent"-->
+    <!--android:layout_height="32dp"-->
+    <!--android:scaleType="fitCenter"-->
+    <!--android:src="@drawable/search"-->
+    <!--/>-->
+
+
+    <!--</LinearLayout>-->
+    <!--<RelativeLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_weight="85"-->
+    <!--android:layout_gravity="center_vertical"-->
+    <!--android:padding="2dp"-->
+    <!--android:layout_height="match_parent">-->
+    <!--<ImageButton-->
+    <!--android:layout_width="match_parent"-->
+
+    <!--android:id="@+id/open_notifications"-->
+
+    <!--android:background="@android:color/transparent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:scaleType="fitCenter"-->
+    <!--android:src="@drawable/ic_bell_icon"-->
+    <!--/>-->
+    <!--<TextView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="0"-->
+    <!--android:layout_alignParentTop="true"-->
+    <!--android:layout_alignParentRight="true"-->
+    <!--android:background="@drawable/bg_button_white"-->
+    <!--android:paddingRight="3dp"-->
+    <!--android:id="@+id/notification_counter"-->
+    <!--android:paddingLeft="3dp"-->
+    <!--android:textSize="11sp"-->
+    <!--android:textColor="#df0e0e"-->
+    <!--/>-->
+    <!--</RelativeLayout>-->
+    <!--</LinearLayout>-->
+
+
+    <!--</android.support.v7.widget.Toolbar>-->

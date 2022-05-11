@@ -1,0 +1,41 @@
+<resources>
+    <!--<resources>--><!--&lt;!&ndash;--><!--TODO: Before you run your application, you need a Google Maps API key.-->
+
+    <!--To get one, follow this link, follow the directions and press "Create" at the end:-->
+
+    <!--https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=C0:B1:1B:25:CF:37:3A:9B:4D:B3:FA:65:71:9D:A2:B5:2D:E2:0E:77%3Bnyx.com.oilorderapp.activities-->
+
+    <!--You can also add your credentials to an existing key, using these values:-->
+
+    <!--Package name:--><!--C0:B1:1B:25:CF:37:3A:9B:4D:B3:FA:65:71:9D:A2:B5:2D:E2:0E:77-->
+
+    <!--SHA-1 certificate fingerprint:--><!--C0:B1:1B:25:CF:37:3A:9B:4D:B3:FA:65:71:9D:A2:B5:2D:E2:0E:77-->
+
+    <!--Alternatively, follow the directions here:--><!--https://developers.google.com/maps/documentation/android/start#get-key-->
+
+    <!--Once you have your key (it starts with "AIza"), replace the "google_maps_key"--><!--string in this file.--><!--true-elevator-221219-->
+
+    <!--&ndash;&gt;--><!--<string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">--><!--AIzaSyCH_9BTDnFXZYQ1lsjaizTrjB9C4EZTtbc--><!--</string>--><!--</resources>-->
+    ><!--
+    TODO: Before you run your application, you need a Google Maps API key.
+
+    To get one, follow this link, follow the directions and press "Create" at the end:
+
+    https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=C0:B1:1B:25:CF:37:3A:9B:4D:B3:FA:65:71:9D:A2:B5:2D:E2:0E:77%3Bnyx.com.oilorderapp
+
+    You can also add your credentials to an existing key, using these values:
+
+    Package name:
+    C0:B1:1B:25:CF:37:3A:9B:4D:B3:FA:65:71:9D:A2:B5:2D:E2:0E:77
+
+    SHA-1 certificate fingerprint:
+    C0:B1:1B:25:CF:37:3A:9B:4D:B3:FA:65:71:9D:A2:B5:2D:E2:0E:77
+   
+    Alternatively, follow the directions here:
+    https://developers.google.com/maps/documentation/android/start#get-key
+    Once you have your key (it starts with "AIza"), replace the "google_maps_key"
+    string in this file.
+    -->
+    <string name="google_maps_key" translatable="false">AIzaSyBdS0lS9zEomiD4r9sYwuzdIwgkj3knuhU
+    </string>
+</resources>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "897415326992",
+    "firebase_url": "https://oilex2.firebaseio.com",
+    "project_id": "oilex2",
+    "storage_bucket": "oilex2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:897415326992:android:c144939eb354409e",
+        "android_client_info": {
+          "package_name": "ebtkar.app.oilex2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "897415326992-8g9inkkhj34ppge9do3odi35hnkt2gdb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANfJFWAqUG5TdzwnIYTF6lTsMYHWqB1zE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

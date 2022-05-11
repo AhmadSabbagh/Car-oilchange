@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="ebtkar.app.oilex2.activities.FinalOrderMessage">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:padding="10dp"
+    android:background="#e9e9e9"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:id="@+id/invoice_id"
+        android:textSize="22sp"
+        android:text="INVOICE ID"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:layout_margin="10dp"
+        android:id="@+id/time_invoice"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:text="INVOICE TIME"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:background="@drawable/bg_button"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:id="@+id/go_continue"
+        android:textSize="18sp"
+        android:text="@string/contine_link"
+        />
+
+
+
+</LinearLayout>
+</RelativeLayout>

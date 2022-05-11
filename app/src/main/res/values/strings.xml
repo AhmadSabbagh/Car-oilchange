@@ -1,0 +1,195 @@
+<resources>
+    <string name="app_name">Oilex</string>
+    <string name="facebook_app_id" translatable="false">330807421030356</string>
+    <string name="fb_login_protocol_scheme" translatable="false">fb330807421030356</string>
+
+
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+
+
+    <string name="enter_phone_here">Enter phone here...</string>
+    <string name="enter_password_here">Enter password here</string>
+    <string name="login">Login</string>
+    <string name="forget_password">Forget password ?</string>
+    <string name="dont_have_an_account_yet">Dont have an account yet ?</string>
+    <string name="signup">Signup</string>
+    <string name="how_to_be_a_service_provider">How to be a service provider ?</string>
+    <string name="first_name">First name</string>
+    <string name="last_name">Last name</string>
+    <string name="already_have_an_account">Already have an account ?</string>
+    <string name="create_account">Create account</string>
+    <string name="service_provider">Service provider</string>
+    <string name="customer">Customer</string>
+    <string name="login_to_your_account">Login to your account</string>
+    <string name="login_as_provider">Login as provider</string>
+    <string name="login_as_customer">Login as customer</string>
+    <string name="main_menu">Main menu</string>
+    <string name="new_request">New request</string>
+    <string name="my_requests">My requests</string>
+    <string name="promo_code">Promo code</string>
+    <string name="invite_a_friend">Invite a friend</string>
+    <string name="support">Support</string>
+    <string name="select_you_car_model">Select you car model</string>
+    <string name="loading_car_models">Loading car models...</string>
+    <string name="server_error">Server error,please try again..</string>
+    <string name="connect_please">Please connect to internet !</string>
+    <string name="copyrights_resrverd">Copyrights resrverd 2019</string>
+    <string name="home">Home</string>
+    <string name="press_to_exit">Press again to exit !</string>
+    <string name="title_activity_pick_my_place" translatable="false">Map</string>
+    <string name="no_permissions_granted">No permissions granted !</string>
+    <string name="you_selected">You selected</string>
+    <string name="on_the_map">On the map.</string>
+    <string name="title_activity_maps" translatable="false">Map</string>
+    <string name="select_language">Select language :</string>
+    <string name="signup_succesfull">Account created succesfully.</string>
+    <string name="wait_till_approval">Please wait till your account gets activiated by adminstartion</string>
+    <string name="enter_password_please">Please enter password..</string>
+    <string name="please_enter_phone_number">Please enter phone number..</string>
+    <string name="please_enter_lname">Please enter last name..</string>
+    <string name="please_enter_fname">Please enter first name..</string>
+    <string name="ok">Ok</string>
+    <string name="login_succesfull">Login succesfull..</string>
+    <string name="login_failed">Login failed,check phone and password..</string>
+    <string name="loading_car_calibration_types">Loading car calibration types..</string>
+    <string name="select_oil_calibration_type">Select oil calibration type</string>
+    <string name="loading_oil_brands">Loading oil brands..</string>
+    <string name="select_oil_brand">Select oil brand</string>
+    <string name="select_filter_and_enter_address">Select Filter and enter address</string>
+    <string name="enter_your_address_here">Enter your address here..</string>
+    <string name="i_need_oil_filter">I need oil filter</string>
+    <string name="send">Send</string>
+    <string name="pleae_wait">Please wait..</string>
+    <string name="enter_address_please">Enter address please..</string>
+    <string name="order_preview">Order preview</string>
+    <string name="oil_chg_location">Oil change location</string>
+    <string name="car">Car :</string>
+    <string name="oil">Oil :</string>
+    <string name="price">Price :</string>
+    <string name="find_all_types_of_oil_for_your_car_whenever_and_wherever_you_are_just_loactate_your_position_and_check_for_nearest_service_providers_and_enjoy_our_services">Find all types of oil for your car whenever and wherever you are , just loactate your position and check for nearest service providers and enjoy our services !</string>
+    <string name="about">About</string>
+    <string name="loading_requests">Loading requests</string>
+    <string name="requests_from_customers">Requests from customers</string>
+    <string name="oil_brand">Oil brand :</string>
+    <string name="cus_phone">Customer phone :</string>
+    <string name="no_results_found">No results found !</string>
+    <string name="enter_valid_time">Please enter valid time !</string>
+    <string name="cancel">Cancel</string>
+    <string name="cueent_pos">Current Position</string>
+    <string name="approve_request">Approve request</string>
+    <string name="my_loc">My location</string>
+    <string name="cus_loc">Customer location</string>
+    <string name="how_much_time">How much time do you need to reach customer ?</string>
+    <string name="locating_customer">Locating customer..</string>
+    <string name="enter_promo_code">Enter promo code  :</string>
+    <string name="enter_valid_code">Enter valide code</string>
+    <string name="sending_code">Sending code..</string>
+    <string name="share_str">Share oilex with all your friends..</string>
+    <string name="dowmlaod">Download oilex</string>
+    <string name="share_via">Share via</string>
+    <string name="how_can_we_help">How can we help you ?</string>
+    <string name="enter_message">Enter a message !</string>
+    <string name="at_your_service">At your service !</string>
+    <string name="search">Search...</string>
+    <string name="reject_request">Reject request</string>
+    <string name="phone">Phone :</string>
+    <string name="cus_name">Customer name :</string>
+    <string name="enable_gps_question">Your GPS seems to be disabled, do you want to enable it?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="rated_succesfully">Rated successfuly..</string>
+    <string name="please_rate_services">Please rate the services of the application..</string>
+    <string name="create_account_using_facebook">Create account using facebook</string>
+    <string name="login_using_facebook">Login using facebook</string>
+    <string name="language">Langauge</string>
+    <string name="logout">Logout</string>
+    <string name="your_problem">Your problem..</string>
+    <string name="tell_us_about_your_problem">Tell us about your problem..</string>
+    <string name="msg_sent">Message was sent successfully..</string>
+    <string name="password_sent">Password was sent to your phone !</string>
+    <string name="complaints_and_suggestions">Complaints and suggestions</string>
+    <string name="oil_change">Select location of oil change</string>
+    <string name="oil_location_req">Please select oil change location first</string>
+    <string name="select_car_title">Select Car</string>
+    <string name="car_type_required">Please select car type first</string>
+    <string name="oil_type">Oil Type</string>
+    <string name="oil_price">Oil Price</string>
+    <string name="oil_detail">Oil detail</string>
+    <string name="load_oil_detial">Load oil detail</string>
+    <string name="please_wait">Please wait ...</string>
+    <string name="check_password_data">Please check the entered data</string>
+    <string name="create_account_fail">Phone number already used</string>
+    <string name="main">Main</string>
+    <string name="change_password">Change password</string>
+    <string name="enter_new_password_here">Enter new password here..</string>
+    <string name="enter_old_password_here">Enter old password here...</string>
+    <string name="password_changed_success">Password changed successfully</string>
+    <string name="add_complaints_or_suggestions">Add Complaints or suggestions</string>
+    <string name="agent_name">Agent name :</string>
+    <string name="time">Time :</string>
+    <string name="my_orders">My orders</string>
+    <string name="title_activity_maps_tester" translatable="false">Map</string>
+
+
+    <string name="default_info_title" translatable="false">Default Location</string>
+    <string name="default_info_snippet" translatable="false">No places found, because location permission is disabled.</string>
+    <string name="option_get_place" translatable="false">Get place</string>
+    <string name="pick_place" translatable="false">Choose a place</string>
+    <string name="contine_link">Continue</string>
+    <string name="invoice_id">Invoice ID :</string>
+    <string name="invoice_time">Invoice Time :</string>
+    <string name="finshed">Finsihed</string>
+    <string name="pinding">Pinding</string>
+    <string name="rate_agent">Rate agent</string>
+
+
+    <string name="login_title">Login</string>
+    <string name="signup_title">Create account</string>
+
+    <string name="select_oil_title">Select oil type : </string>
+    <string name="select_caliber_title">Select oil calibration</string>
+    <string name="car_model_title">Select car manufacturer</string>
+    <string name="oil_type_required">Select oil type please</string>
+    <string name="title_activity_slice_maps" translatable="false">Map</string>
+    <string name="go_continue">Continue</string>
+    <string name="total_price">Total price :</string>
+    <string name="l1">Loading oil details..</string>
+    <string name="l2">Sending order..</string>
+    <string name="j_d">Jordanian Dinar</string>
+    <string name="lookiung_for">Looking for customer...</string>
+    <string name="initializaing_map">Initializing map...</string>
+    <string name="location_s1">Location set..</string>
+    <string name="location_s2">No locations available...</string>
+    <string name="location_s3">Preparing map...</string>
+    <string name="location_s4">Listening to location changes ...</string>
+    <string name="location_s5">Gps location not granted ...</string>
+    <string name="location_s6">Listening to location changes ...</string>
+    <string name="location_s7">Updating marker...</string>
+    <string name="location_s8">Location detected.</string>
+    <string name="s9">Location is avaialble</string>
+    <string name="s10">location is not avaialble</string>
+    <string name="uuiuye3">Opening order details..</string>
+    <string name="wan_20">You must select within a c20 km range !</string>
+    <string name="skja">Request was rejected .</string>
+    <string name="title_activity_maps_test" translatable="false">Map</string>
+    <string name="title_activity_maps_test2" translatable="false">Map</string>
+    <string name="your_comment_here">Your comment here..</string>
+    <string name="rate">Rate</string>
+    <string name="plz_rate_cus">Please rate this customer</string>
+    <string name="r_u_s">Requests under service</string>
+    <string name="click_on_a_request_to_rate_it">Click on a request to rate it</string>
+    <string name="waiting_requetss">Waiting requests</string>
+    <string name="my_service">Requests under  my service</string>
+    <string name="loading">Loading..</string>
+    <string name="s98">Agent location was updated succesfully.</string>
+    <string name="xxc" />
+    <string name="rate_provider">Please rate provider</string>
+    <string name="plz_w8">Please wait..</string>
+    <string name="filter_price">Filter price</string>
+    <string name="max_time">Maximum time imit is 60 minutes !</string>
+    <string name="done_serv">تم تقديم الخدمة</string>
+    <string name="done_rate"> the servece is complete</string>
+
+</resources>

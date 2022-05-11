@@ -1,0 +1,140 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+
+    android:layout_height="match_parent"
+    tools:context="ebtkar.app.oilex2.MapsActivity" >
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:map="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="ebtkar.app.oilex2.MapsActivity" />
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:background="#fff"-->
+        <!--android:layout_margin="10dp"-->
+        <!--android:layout_weight="1"-->
+        <!--android:orientation="vertical"-->
+        <!--&gt;-->
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:orientation="vertical"-->
+            <!--android:id="@+id/loading"-->
+            <!--android:layout_height="wrap_content">-->
+            <!--<ProgressBar-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="40dp"-->
+                <!--android:layout_margin="10dp"/>-->
+            <!--<TextView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+
+                <!--android:gravity="center"-->
+                <!--android:textColor="@color/black"-->
+                <!--android:text="@string/locating_customer"-->
+                <!--android:layout_margin="10dp"-->
+                <!--/>-->
+
+        <!--</LinearLayout>-->
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:id="@+id/heart"-->
+            <!--android:visibility="gone"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="vertical"-->
+            <!--&gt;-->
+
+            <!--<TextView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="Customer name"-->
+                <!--android:padding="10dp"-->
+                <!--android:id="@+id/customer_name"-->
+                <!--android:textColor="@color/black"-->
+                <!--/>-->
+            <!--<View-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="1dp"-->
+                <!--android:background="#ccc"/>-->
+            <!--<TextView-->
+                <!--android:padding="10dp"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="Oil name"-->
+                <!--android:id="@+id/oil_name"-->
+                <!--android:textColor="@color/black"-->
+                <!--/>-->
+            <!--<View-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="1dp"-->
+                <!--android:background="#ccc"/>-->
+            <!--<TextView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:padding="10dp"-->
+                <!--android:text="Price"-->
+                <!--android:id="@+id/price"-->
+                <!--android:textColor="@color/black"-->
+                <!--/>-->
+            <!--<View-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="1dp"-->
+                <!--android:background="#ccc"/>-->
+            <!--<TextView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:padding="10dp"-->
+                <!--android:text="8312903821"-->
+                <!--android:id="@+id/phone"-->
+                <!--android:textColor="@color/black"-->
+                <!--/>-->
+
+
+
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:orientation="horizontal"-->
+                <!--android:weightSum="2"-->
+                <!--android:layout_height="wrap_content">-->
+
+                <!--<Button-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="@string/approve_request"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:layout_margin="10dp"-->
+                    <!--android:id="@+id/approve"-->
+                    <!--android:textColor="@color/colorPrimaryDark"-->
+                    <!--/>-->
+                <!--<Button-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="@string/reject_request"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:layout_margin="10dp"-->
+                    <!--android:id="@+id/reject"-->
+                    <!--android:textColor="@color/colorPrimaryDark"-->
+                    <!--/>-->
+            <!--</LinearLayout>-->
+            <!--<ProgressBar-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="30dp"-->
+                <!--android:id="@+id/loading_app"-->
+                <!--android:visibility="invisible"-->
+                <!--android:layout_margin="5dp"-->
+                <!--/>-->
+        <!--</LinearLayout>-->
+
+
+
+    <!--</LinearLayout>-->
+
+</LinearLayout>
